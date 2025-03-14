@@ -2611,7 +2611,7 @@ impl Ranged for ExprNumberLiteral {
     }
 }
 
-#[derive(Clone, Debug, PartialEq, is_macro::Is)]
+#[derive(Clone, Debug, PartialEq, PartialOrd, is_macro::Is)]
 pub enum Number {
     Int(int::Int),
     Float(f64),
