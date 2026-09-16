@@ -8,9 +8,9 @@ permissions: {}
 
 on:
   workflow_dispatch:
-  schedule:
-    # Run every Wednesday at 5:00 UTC:
-    - cron: 0 5 * * 3
+  # schedule:
+  #   # Run every Wednesday at 5:00 UTC:
+  #   - cron: 0 5 * * 3
 
 env:
   CARGO_INCREMENTAL: 0
